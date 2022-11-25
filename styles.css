@@ -18,7 +18,7 @@ body {
   border: 1px solid;
 }
 
-.grid > * {
+.grid>* {
   background-color: #4d7298;
   border: 2px solid #77a6b6;
   border-radius: 0.5em;
@@ -34,6 +34,11 @@ body {
 /*  ---- start exercise 1 ----  */
 
 .grid-1 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
 }
 
 /*  ---- end exercise 1 ----  */
@@ -76,7 +81,7 @@ body {
   grid-template-rows: 200px min-content;
 }
 
-.card > img {
+.card>img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -88,7 +93,7 @@ body {
   list-style: none;
 }
 
-.tags > * {
+.tags>* {
   background-color: #999;
   color: #fff;
   padding: 0.2em 0.8em;
@@ -97,11 +102,9 @@ body {
   margin: 5px;
 }
 
-.layout-container {
-}
+.layout-container {}
 
-.tags {
-}
+.tags {}
 
 /*  ---- end exercise 4 ----  */
 
