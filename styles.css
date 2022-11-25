@@ -118,9 +118,18 @@ body {
   margin: 5px;
 }
 
-.layout-container {}
+.layout-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
 
-.tags {}
+.tags {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
 
 /*  ---- end exercise 4 ----  */
 
