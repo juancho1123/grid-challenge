@@ -65,7 +65,7 @@ body {
   background-color: rgba(214, 162, 173, 0.7);
   border: 5px solid rgba(214, 162, 173, 1);
   grid-column-start: 2;
-  grid-column-end: 6;
+  grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 4;
 }
@@ -126,9 +126,9 @@ body {
 }
 
 .tags {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*  ---- end exercise 4 ----  */
